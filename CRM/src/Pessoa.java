@@ -1,4 +1,4 @@
-public class Pessoa {
+public abstract class Pessoa {
     private String nome;
     private int id;
 
@@ -13,19 +13,6 @@ public class Pessoa {
     }
     public void setId(int id) {
         this.id = id;
-    }
-
-    public void setar_pessoa_nome(String nome){
-        this.nome=nome;
-    }
-    public String ver_nome(){
-        return this.nome;
-    }
-    public void setar_pessoa_id(int id){
-        this.id=id;
-    }
-    public int ver_id(){
-        return this.id;
     }
 
 }
