@@ -22,8 +22,8 @@ public class Vendedor extends Funcionario{
         this.total_em_vendas = total_em_vendas;
     }
 
-    public void vendedor_visual_atri(){
-        System.out.printf("\nVendedor:\nId: "+getId()+"\nNome: "+getNome()+
+    public void visual_atri(){
+        System.out.printf("\n\nVendedor:\nId: "+getPessoa_id()+"\nNome: "+getPessoa_nome()+
         "\nSálario: "+getFuncio_salario()+"\nCarga horária: "+getFuncio_cargaH()+
         "\nId loja: "+getId_loja()+"\nQtd de itens Vendidos: "+getQtd_itens_vend()+"\nTotal em vendas: "+getTotal_em_vendas());
     }
