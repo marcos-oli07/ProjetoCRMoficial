@@ -1,15 +1,21 @@
 public class Atendente extends Funcionario{
-private int atendente_num_caixa;
+    private int aten_id_loja;
+    private int aten_n_caixa;
 
-    public int getAtendente_num_caixa() {
-        return this.atendente_num_caixa;
+    public int getAten_id_loja() {
+        return this.aten_id_loja;
+    }
+    public void setAten_id_loja(int aten_id_loja) {
+        this.aten_id_loja = aten_id_loja;
+    }
+    public int getAten_n_caixa() {
+        return this.aten_n_caixa;
+    }
+    public void setAten_n_caixa(int aten_n_caixa) {
+        this.aten_n_caixa = aten_n_caixa;
     }
 
-    public void setAtendente_num_caixa(int atendente_num_caixa) {
-        this.atendente_num_caixa = atendente_num_caixa;
-    }
-
-    public void atendente_visualizar(){
-        System.out.println("Atendente\nNúmero do caixa: "+getAtendente_num_caixa());
+    public void visual_atri(){
+        
     }
 }
