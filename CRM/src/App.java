@@ -7,8 +7,7 @@ public class App {
         Gerente ge = new Gerente();
         Estoque es = new Estoque();
         Fornecedor fo = new Fornecedor();
-        Loja lj = new Loja();
-
+        
         int deci_ver_ou_atri = 0;
 
         System.out.printf("Bem vindo ao sistema de CRM!\n");
