@@ -7,7 +7,6 @@ public class App {
         Gerente ge = new Gerente();
         Estoque es = new Estoque();
         Fornecedor fo = new Fornecedor();
-        Cliente cli = new Cliente();
         
         int deci_ver_ou_atri = 0;
 
