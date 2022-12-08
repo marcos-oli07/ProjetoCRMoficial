@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
@@ -7,14 +6,21 @@ public class App {
         Atendente at = new Atendente();
         Gerente ge = new Gerente();
 
-        ve.setPessoa_nome("Fabio");
-        at.setPessoa_nome("Tulio");
-        ge.setPessoa_nome("Gertrudes");
+        int deci_ver_ou_atri = 0;
 
-        ve.visual_atri();
-        at.visual_atri();
-        ge.visual_atri();
+        System.out.printf("Bem vindo ao sistema de CRM!\n");
+        while (deci_ver_ou_atri<=3){
+            System.out.printf("Oque vai querer agora?\n1 - Visualizar\n2 - Cadastrar\nOpção: ");
+            sc.nextInt();
+            if (deci_ver_ou_atri==1){
 
-        
+            }
+            else if (deci_ver_ou_atri==2){
+
+            }
+            else{
+                System.exit(0);
+            }
+        }
     }
 }

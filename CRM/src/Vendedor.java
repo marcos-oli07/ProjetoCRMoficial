@@ -1,7 +1,6 @@
 public class Vendedor extends Funcionario{
-
-private double vendedor_comissao;
-private double vendedor_meta;
+    private double vendedor_comissao;
+    private double vendedor_meta;
 
     public double getVendedor_comissao() {
         return this.vendedor_comissao;
@@ -18,8 +17,5 @@ private double vendedor_meta;
     public void setVendedor_meta(double vendedor_meta) {
         this.vendedor_meta = vendedor_meta;
     }
-
-    //public void
-
 
 }

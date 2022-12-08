@@ -14,8 +14,6 @@ public class Atendente extends Funcionario{
     public void setAten_n_caixa(int aten_n_caixa) {
         this.aten_n_caixa = aten_n_caixa;
     }
-
-    public void visual_atri(){
-        
+    public void visual_atri(){       
     }
 }

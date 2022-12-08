@@ -1,7 +1,6 @@
 public class Gerente extends Funcionario{
-<<<<<<< HEAD
-private String gerente_setor;
-private int gerente_lista_funcio;
+    private String gerente_setor;
+    private int gerente_lista_funcio;
 
     public String getGerente_setor() {
         return this.gerente_setor;
@@ -19,8 +18,4 @@ private int gerente_lista_funcio;
         this.gerente_lista_funcio = gerente_lista_funcio;
     }
 
-=======
-
-    
->>>>>>> 7674280ed082da1ef0fcb37398555facc1662aa0
 }

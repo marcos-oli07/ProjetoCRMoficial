@@ -1,6 +1,6 @@
 public abstract class Pessoa {
-     private int pessoa_CPF;
-     private String pessoa_nome;
+    private int pessoa_CPF;
+    private String pessoa_nome;
 
     public int getPessoa_CPF() {
         return this.pessoa_CPF;
@@ -17,4 +17,5 @@ public abstract class Pessoa {
     public void setPessoa_nome(String pessoa_nome) {
         this.pessoa_nome = pessoa_nome;
     }
+    
 }
