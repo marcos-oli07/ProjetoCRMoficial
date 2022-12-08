@@ -6,6 +6,7 @@ public class App {
         Atendente at = new Atendente();
         Gerente ge = new Gerente();
         Estoque es = new Estoque();
+        Fornecedor fo = new Fornecedor();
 
         int deci_ver_ou_atri = 0;
 
