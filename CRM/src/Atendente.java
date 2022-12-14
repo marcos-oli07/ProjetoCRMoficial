@@ -14,6 +14,8 @@ public class Atendente extends Funcionario{
     public void setAten_n_caixa(int aten_n_caixa) {
         this.aten_n_caixa = aten_n_caixa;
     }
-    public void visual_atri(){       
+    public void atendente_visualizar(){ 
+        System.out.printf("\nAtendente\nNome: "+getPessoa_nome()+"\nCPF: "+getPessoa_CPF()+"\nSalário: "+getFuncio_salario()
+        +"\nCarga Horária: "+getFuncio_cargaH()+"\nNº registro: "+getFuncio_registro()+"\nNº do caixa: ");      
     }
 }

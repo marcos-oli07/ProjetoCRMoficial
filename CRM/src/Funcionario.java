@@ -1,7 +1,7 @@
 public abstract class Funcionario extends Pessoa{
-     private double funcio_salario;
-     private int funcio_cargaH;
-     private int funcio_registro;
+    private double funcio_salario;
+    private int funcio_cargaH;
+    private int funcio_registro;
 
     public double getFuncio_salario() {
         return this.funcio_salario;
@@ -25,6 +25,6 @@ public abstract class Funcionario extends Pessoa{
 
     public void setFuncio_registro(int funcio_registro) {
         this.funcio_registro = funcio_registro;
-    }
 
+    }  
 }

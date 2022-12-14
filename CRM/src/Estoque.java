@@ -27,6 +27,6 @@ public class Estoque {
         this.fornecedor_tele = fornecedor_tele;
     }
     public void estoque_visualizar(){
-        System.out.println("Estoque \nProduto ID: "+getProduto_id()+"\nQuantidade Estoque: "+getEstoque_qtd()+"\nTelefone do Fornecedor"+getFornecedor_tele());
+        System.out.println("\nEstoque \nProduto ID: "+getProduto_id()+"\nQuantidade Estoque: "+getEstoque_qtd()+"\nTelefone do Fornecedor"+getFornecedor_tele());
     }
 }

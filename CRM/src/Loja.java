@@ -17,7 +17,7 @@ public class Loja {
     public void setLoja_num_caixas(int loja_num_caixas) {
         this.loja_num_caixas = loja_num_caixas;
     }
-    public void Fornecedor_visualizar(){
-        System.out.println("Loja \nLoja ID: "+getLoja_cnpj()+"\nNúmero de Caixas"+getLoja_num_caixas());
+    public void loja_visualizar(){
+        System.out.println("\nLoja\nLoja ID: "+getLoja_cnpj()+"\nNúmero de Caixas"+getLoja_num_caixas());
     }
 }

@@ -37,7 +37,7 @@ public class Produto {
     }
 
     public void produto_visualizar(){
-        System.out.println("Produto\nID do Produto: "+getProduto_id()+"Nome: "+getProduto_nome()+"Valor: "+getProduto_valor()
-        +"Descrição: "+getProduto_desc()+"Qtd: "+getProduto_qtd());
+        System.out.println("\nProduto\nID do Produto: "+getProduto_id()+"\nNome: "+getProduto_nome()+"\nValor: "+getProduto_valor()
+        +"\nDescrição: "+getProduto_desc()+"\nQtd: "+getProduto_qtd());
     }
 }

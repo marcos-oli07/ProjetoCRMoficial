@@ -45,7 +45,7 @@ public class Pedido {
         this.pedido_valor_em_pontos = pedido_valor_em_pontos;
     }
         public void pedido_visualizar(){
-        System.out.println("Pedido\nID do Pedido: "+getPedido_id()+"ID da Lista de compras: "+getLista_de_compras_id()
+        System.out.println("\nPedido\nID do Pedido: "+getPedido_id()+"ID da Lista de compras: "+getLista_de_compras_id()
         +"Valor da compra(Frete incluído): "+getPedido_valor_total()+"Valor do Frete: "+getPedido_valor_frete()
         +"Valor em pontos"+getPedido_valor_em_pontos());
     }

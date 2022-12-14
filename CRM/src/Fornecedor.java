@@ -36,6 +36,6 @@ public class Fornecedor {
         this.fornecedor_tele = fornecedor_tele;
     }
     public void Fornecedor_visualizar(){
-        System.out.println("Fornecedor \nFornecedor ID: "+getFornecedor_id()+"\nNome: "+getFornecedor_nome()+"\nDescrição do Fornecedor: "+getFornecedor_desc()+"\nTelefone do Fornecedor: "+getFornecedor_tele());
+        System.out.println("\nFornecedor \nFornecedor ID: "+getFornecedor_id()+"\nNome: "+getFornecedor_nome()+"\nDescrição do Fornecedor: "+getFornecedor_desc()+"\nTelefone do Fornecedor: "+getFornecedor_tele());
     }
 }
