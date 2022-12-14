@@ -12,6 +12,7 @@ public class App {
         Loja loja = new Loja();
         Pedido pedido = new Pedido();
         Produto produto = new Produto();
+        Venda venda = new Venda();
         
         int acd, acv, aci, op = 0;
 
@@ -23,7 +24,7 @@ public class App {
             acd = sc.nextInt();  
             switch (acd) {
                 case 1:
-                    System.out.printf("\nGostaria de visualizar quem?\n1 - Atendente\n2 - Cliente\n3 - Estoque\n4 - Fornecedor\n5 - Gerente\n6 - Loja\n7 - Pedido\n8 - Produto\n9 - Vendendor\nOpção: ");
+                    System.out.printf("\nGostaria de visualizar quem?\n1 - Atendente\n2 - Cliente\n3 - Estoque\n4 - Fornecedor\n5 - Gerente\n6 - Loja\n7 - Pedido\n8 - Produto\n9 - Vendendor\n10 - Venda\nOpção: ");
                     acv = sc.nextInt();
                     switch (acv) {
                         case 1:atendente.atendente_visualizar()    ; break;
@@ -35,6 +36,7 @@ public class App {
                         case 7:pedido.pedido_visualizar();         ; break;
                         case 8:produto.produto_visualizar();       ; break;
                         case 9:vendedor.vedendor_visualizar();     ; break;
+                        case 10:venda.venda_visualizar();;     ; break;
                         default:System.out.printf("\nError, esse valor não existe na tabela!\n");break;
                     }
                     break;
