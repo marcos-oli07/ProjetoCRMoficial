@@ -1,4 +1,7 @@
+import java.util.Scanner;
+
 public class Produto {
+    Scanner banana = new Scanner(System.in);
     private int produto_id;
     private String produto_nome;
     private double produto_valor;
@@ -36,6 +39,10 @@ public class Produto {
         this.produto_qtd = produto_qtd;
     }
 
+    public void setar_produto(){
+        System.out.println("\nProduto ID: ");
+        setProduto_id(banana.nextInt());
+    }
     public void produto_visualizar(){
         System.out.println("\nProduto\nID do Produto: "+getProduto_id()+"\nNome: "+getProduto_nome()+"\nValor: "+getProduto_valor()
         +"\nDescrição: "+getProduto_desc()+"\nQtd: "+getProduto_qtd());

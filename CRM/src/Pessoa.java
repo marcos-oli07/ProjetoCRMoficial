@@ -1,4 +1,4 @@
-public abstract class Pessoa {
+public abstract class Pessoa extends Endereco{
     private int pessoa_CPF;
     private String pessoa_nome; 
 
@@ -14,5 +14,4 @@ public abstract class Pessoa {
     public void setPessoa_nome(String pessoa_nome) {
         this.pessoa_nome = pessoa_nome;
     }
-    
 }

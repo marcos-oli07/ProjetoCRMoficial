@@ -15,7 +15,11 @@ public class Vendedor extends Funcionario{
         this.vendedor_meta = vendedor_meta;
     }
     public void vedendor_visualizar(){ 
-        System.out.printf("\nAtendente\nNome: "+getPessoa_nome()+"\nCPF: "+getPessoa_CPF()+"\nSalário: "+getFuncio_salario()
+        System.out.printf("\nAtendente\nID loja"+getFuncio_idloja_setar()+"\nNome: "+getPessoa_nome()+"\nCPF: "+getPessoa_CPF()+"\nSalário: "+getFuncio_salario()
         +"\nCarga Horária: "+getFuncio_cargaH()+"\nComissão: "+getVendedor_comissao()+"\nMeta samanal: "+getVendedor_meta());
+    }
+    public void endereco_visualizar(){
+        System.out.println("\nEndereço Vedendor\nNúmero do lote: "+getEndereco_num_lote()+"\nCPE: " +getEndereco_cpe()+"\nRua: "+getEndereco_rua() 
+        +"\nBairro: "+getEndereco_bairro() +"\nCidade: "+getEndereco_cidade() +"\nEstado: "+getEndereco_estado());
     }
 }
