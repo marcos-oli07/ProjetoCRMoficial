@@ -2,6 +2,7 @@ public class Loja extends Endereco{
     private int loja_id; 
     private int loja_cnpj;
     private int loja_num_caixas;
+    private Endereco endereco;
 
     public int getLoja_id() {
         return this.loja_id;
@@ -23,11 +24,11 @@ public class Loja extends Endereco{
     }
     public void setar_loja(){
 
-        System.out.println("\nLoja ID: ");
+        System.out.printf("\nLoja ID: ");
         setLoja_id(sc.nextInt());
-        System.out.println("\nCNPJ: ");
+        System.out.printf("CNPJ: ");
         setLoja_cnpj(sc.nextInt());
-        System.out.println("\nNº de caixas: ");
+        System.out.printf("Nº de caixas: ");
         setLoja_num_caixas(sc.nextInt());
 
         setar_endereco();

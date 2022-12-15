@@ -22,9 +22,8 @@ public class Gerente extends Funcionario{
         this.gerente_setor = gerente_setor;
     }  
     
-    
-    public void setar_funcio_gerenciados(int aten, int vend){
-        
+    public void setar_idlojaG(int idlojaG){
+        setFuncio_idloja_setar(idlojaG);
     }
     public void setar_gerente(){
 

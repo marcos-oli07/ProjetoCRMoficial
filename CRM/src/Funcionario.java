@@ -29,7 +29,4 @@ public abstract class Funcionario extends Pessoa{
         this.funcio_registro = funcio_registro;
     }  
 
-    public void setar_idloja_em_funcionarios(int idloja2){
-        this.funcio_idloja_setar = idloja2;
-    }
 }

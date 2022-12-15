@@ -1,10 +1,11 @@
+import java.util.Scanner;
 public class Pedido {
     private int pedido_id;
     private double pedido_valor_frete;
     private int lista_de_compras_id;
     private double pedido_valor_total;
     private double pedido_valor_em_pontos;
-
+    Scanner sc = new Scanner(System.in);
     public int getPedido_id() {
         return this.pedido_id;
     }
@@ -34,6 +35,19 @@ public class Pedido {
     }
     public void setPedido_valor_em_pontos(double pedido_valor_em_pontos) {
         this.pedido_valor_em_pontos = pedido_valor_em_pontos;
+    }
+    public void setar_pedido(){
+        System.out.printf("\nID do pedido: ");
+        setPedido_id(sc.nextInt());
+        System.out.printf("ID da lista de compras: ");
+        setLista_de_compras_id(sc.nextInt());
+        System.out.printf("Valor da compra(Frete incluído): ");
+        setPedido_valor_total(sc.nextDouble());
+        System.out.printf("Valor do frete: ");
+        setPedido_valor_frete(sc.nextDouble());
+        System.out.printf("Valor em pontos: ");
+        setPedido_valor_em_pontos(sc.nextInt());
+
     }
         public void pedido_visualizar(){
         System.out.println("\nPedido\nID do Pedido: "+getPedido_id()+"ID da Lista de compras: "+getLista_de_compras_id()

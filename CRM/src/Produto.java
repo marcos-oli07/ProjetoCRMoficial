@@ -40,7 +40,7 @@ public class Produto {
     }
 
     public void setar_produto(){
-        System.out.println("\nProduto ID: ");
+        System.out.printf("\nProduto ID: ");
         setProduto_id(banana.nextInt());
     }
     public void produto_visualizar(){
