@@ -1,4 +1,7 @@
+import java.util.Scanner;
+
 public class Fornecedor extends Endereco{
+    Scanner sc = new Scanner(System.in);
     private int fornecedor_id;
     private String fornecedor_nome;
     private String fornecedor_desc;
@@ -28,12 +31,23 @@ public class Fornecedor extends Endereco{
     public void setFornecedor_tele(int fornecedor_tele) {
         this.fornecedor_tele = fornecedor_tele;
     }
+    public void setar_fornecedor(){
+        System.out.printf("Fornecedor ID: ");
+        setFornecedor_id(sc.nextInt());
+        System.out.printf("Nome: ");
+        sc.nextLine();
+        setFornecedor_nome(sc.nextLine());
+        System.out.printf("Descrição: ");
+        setFornecedor_desc(sc.nextLine());
+        System.out.printf("Telefone: ");
+        setFornecedor_tele(sc.nextInt());
+
+        setar_endereco();
+    }
     public void Fornecedor_visualizar(){
         System.out.println("\nFornecedor \nFornecedor ID: "+getFornecedor_id()+"\nNome: "+getFornecedor_nome()
         +"\nDescrição do Fornecedor: "+getFornecedor_desc()+"\nTelefone do Fornecedor: "+getFornecedor_tele());
-    }
-    public void endereco_visualizar(){
-        System.out.println("\nEndereço Fornecedor\nNúmero do lote: "+getEndereco_num_lote()+"\nCPE: " +getEndereco_cpe()+"\nRua: "+getEndereco_rua() 
-        +"\nBairro: "+getEndereco_bairro() +"\nCidade: "+getEndereco_cidade() +"\nEstado: "+getEndereco_estado());
+
+        endereco_visualizar();
     }
 }
