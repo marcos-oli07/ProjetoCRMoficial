@@ -22,6 +22,6 @@ private int pedido_id;
         this.pedido_id = pedido_id;
     }
     public void venda_visualizar(){
-        System.out.println("\nVenda\nID da venda: "+getVenda_id()+"\nCliente: " +getCliente_id()+"\nPedido: "+getPedido_id());
+        System.out.println("\nVenda\nID da venda: "+getVenda_id()+"\nCliente Id: " +getCliente_id()+"\nPedido: "+getPedido_id());
     }
 }

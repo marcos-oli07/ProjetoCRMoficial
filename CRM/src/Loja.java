@@ -1,4 +1,4 @@
-public class Loja {
+public class Loja extends Endereco{
     private int loja_cnpj;
     private int loja_num_caixas;
 
@@ -19,5 +19,9 @@ public class Loja {
     }
     public void loja_visualizar(){
         System.out.println("\nLoja\nLoja ID: "+getLoja_cnpj()+"\nNúmero de Caixas"+getLoja_num_caixas());
+    }
+    public void endereco_visualizar(){
+        System.out.println("\nEndereço Loja\nNúmero do lote: "+getEndereco_num_lote()+"\nCPE: " +getEndereco_cpe()+"\nRua: "+getEndereco_rua() 
+        +"\nBairro: "+getEndereco_bairro() +"\nCidade: "+getEndereco_cidade() +"\nEstado: "+getEndereco_estado());
     }
 }

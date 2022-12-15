@@ -27,16 +27,16 @@ public class App {
                     System.out.printf("\nGostaria de visualizar quem?\n1 - Atendente\n2 - Cliente\n3 - Estoque\n4 - Fornecedor\n5 - Gerente\n6 - Loja\n7 - Pedido\n8 - Produto\n9 - Vendendor\n10 - Venda\nOpção: ");
                     acv = sc.nextInt();
                     switch (acv) {
-                        case 1:atendente.atendente_visualizar()    ; break;
-                        case 2:cliente.cliente_visualizar();       ; break;
-                        case 3:estoque.estoque_visualizar();       ; break;
-                        case 4:fornecedor.Fornecedor_visualizar(); ; break;
-                        case 5:gerente.gerente_visualizar();       ; break;
-                        case 6:loja.loja_visualizar();             ; break;
-                        case 7:pedido.pedido_visualizar();         ; break;
-                        case 8:produto.produto_visualizar();       ; break;
-                        case 9:vendedor.vedendor_visualizar();     ; break;
-                        case 10:venda.venda_visualizar();;     ; break;
+                        case 1:atendente.atendente_visualizar();atendente.endereco_visualizar();; break;
+                        case 2:cliente.cliente_visualizar();; break;
+                        case 3:estoque.estoque_visualizar();; break;
+                        case 4:fornecedor.Fornecedor_visualizar();fornecedor.endereco_visualizar();;; break;
+                        case 5:gerente.gerente_visualizar();gerente.endereco_visualizar(); break;
+                        case 6:loja.loja_visualizar();loja.endereco_visualizar();; break;
+                        case 7:pedido.pedido_visualizar();; break;
+                        case 8:produto.produto_visualizar();; break;
+                        case 9:vendedor.vedendor_visualizar();vendedor.endereco_visualizar();; break;
+                        case 10:venda.venda_visualizar();; break;
                         default:System.out.printf("\nError, esse valor não existe na tabela!\n");break;
                     }
                     break;

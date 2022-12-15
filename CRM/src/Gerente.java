@@ -18,4 +18,8 @@ public class Gerente extends Funcionario{
         System.out.printf("\nAtendente\nNome: "+getPessoa_nome()+"\nCPF: "+getPessoa_CPF()+"\nSalário: "+getFuncio_salario()
         +"\nCarga Horária: "+getFuncio_cargaH()+"\nSetor: "+getGerente_setor()+"\nLista de funcionário: "+getGerente_lista_funcio());
     }
+    public void endereco_visualizar(){
+        System.out.println("\nEndereço Gerente\nNúmero do lote: "+getEndereco_num_lote()+"\nCPE: " +getEndereco_cpe()+"\nRua: "+getEndereco_rua() 
+        +"\nBairro: "+getEndereco_bairro() +"\nCidade: "+getEndereco_cidade() +"\nEstado: "+getEndereco_estado());
+    }
 }

@@ -19,6 +19,11 @@ private int cliente_pontos = 0;
     }
     
     public void cliente_visualizar(){
-        System.out.println("\nCliente\nID: "+getCliente_id()+"\nNome: "+getPessoa_nome()+"\nCPF: "+getPessoa_CPF()+"\nPontos:  "+getCliente_pontos());
+        System.out.println("\nCliente\nID: "+getCliente_id()+"\nNome: "+getPessoa_nome()
+        +"\nCPF: "+getPessoa_CPF()+"\nPontos:  "+getCliente_pontos());
+    }
+    public void endereco_visualizar(){
+        System.out.println("\nEndereço Cliente\nNúmero do lote: "+getEndereco_num_lote()+"\nCPE: " +getEndereco_cpe()+"\nRua: "+getEndereco_rua() 
+        +"\nBairro: "+getEndereco_bairro() +"\nCidade: "+getEndereco_cidade() +"\nEstado: "+getEndereco_estado());
     }
 }
